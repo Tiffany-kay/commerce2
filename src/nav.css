@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.free
+{
+    padding: 10px 30px;
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+.free .icon{
+    color: orangered;
+    font-size: 32px;
+}
+.free p{
+    margin-left: 20px;
+    color:antiquewhite;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main_header{
+    padding: 10px 40px;
+    background: wheat;
+    border-bottom: 2px solid black;
+}
+.main_header .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_header .container .logo h3{
+    color: orangered;
+    font-weight: 800;
+    font-style: italic;
+}
+.main_header .container .search_box{
+    margin-right: 20px;
+}
+.main_header .container .search_box input
+{
+    outline: none;
+    padding: 15px 25px;
+    border: 2px solid orangered;
+    width: 300px;
+    color: black;
+}
+.main_header .container .search_box button{
+    border: 2px solid orangered;
+    outline: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    background: orangered;
+    color: black;
+}
+.main_header .container .icon{
+    display: flex;
+    margin-right: 50px;
+}
+.main_header .container .icon .account
+{
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+text-align: center;
+border-radius: 8%;
+}
+.main_header .container .icon .user_icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+.main_header .container .icon .account p
+{
+    margin-right: 5px;
+    margin-top: 2px;
+    border: none;
+    padding: 5px 7px;
+}
+.main_header .container .icon .second_icon
+{
+    display: flex;
+   }
+   .main_header .container .icon .second_icon .link{
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    color: orangered;
+   }
+   .header 
+   {
+    padding: 20px 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+   }
+   .header .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+   }
+   
+   .header .container ul{
+    display: flex;
+   }
+   
+   .header .container ul li{
+    margin-left: 30px;
+    list-style: none;
+   }
+   .header .container ul li .link{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+   }
+   .header .container ul li .link:hover{
+    color: orangered;
+   }
+   .header .container .auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+   }
+   .header .container .auth button{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+   }
+   

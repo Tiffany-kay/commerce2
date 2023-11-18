@@ -1,0 +1,303 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    box-sizing: border-box;
+}
+.top_banner{
+    padding: 10px 20px;
+    width: 100%;
+    background: black;
+}
+.top_banner .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top_banner .container .detail{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.top_banner .container .detail h2
+{
+    font-size: 30px;
+    color: orangered;
+    margin-top: 20px;
+    margin-right: 40%;
+    margin-bottom: 10%;
+}
+.top_banner .container .detail .link
+{
+
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: orangered;
+    background: rgb(245, 240, 240);
+    transition: 0.5%;
+}
+.top_banner .container .detail .link:hover
+{
+    background: orangered;
+    color: aliceblue;
+}
+.about
+{
+    padding: 40px 50px;
+    width: 100px;
+}
+.about .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .box{
+    padding: 30px 60px;
+    display: flex;
+    background: wheat;
+    width: 200px;
+    height: auto;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.about .container .box .icon
+{
+    color: orangered;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.about .container .box .detail
+{
+    margin-top: 10px;
+    margin-left: 0%;
+}
+.about .container .box .detail h3{
+    color: black;
+}
+.about .container .box .detail p{
+    color: cadetblue;
+}
+.product
+{
+    padding: 30px 40px;
+    width: 100%;
+}
+.product h2{
+    color: black;
+    font-size: 32px;
+}
+.product .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product .container .box
+{
+    padding: 20px 30px;
+    overflow: hidden;
+    width: 240px;
+    height: 290px;
+    background: wheat;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product .container .box:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.product .container .box .img_box
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+.product .container .box .img_box img{
+    position:static;
+    width: 200px;
+    height: 180px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.product .container .box .img_box .icon
+{
+    position: relative;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.product .container .box .img_box:hover .icon
+{
+    margin-left: -20px;
+}
+.product .container .box .img_box li
+{
+    list-style: none;
+    padding: 5px 5px;
+    background: wheat;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.product .container .box .img_box .icon li:hover
+{
+    background: orangered;
+    color: aliceblue;
+}
+.product .container .box .img_box .detail
+{
+    margin-top: 10px;
+}
+.product .container .box  .detail p{
+    color: rgb(204, 60, 7);
+    font-size: 16px;
+}
+.product .container .box .detail h3{
+    margin-bottom: auto;
+    font-size: 14px;
+    color: black;
+    transition: 0.5s;
+}
+.product .container .box:hover .detail h3{
+    color: blue;
+}
+.product .container .box .detail h4{
+    margin-top: 5px;
+    color: orangered;
+    font-size: 14px;
+    font-weight: bold;
+}
+.banner
+{
+    padding: 10px 20px;
+    
+}
+.banner .container{
+    padding: 10px 10px;
+    display: flex;
+    background: black;
+    border-radius: 10px;
+    justify-content: space-between;    
+}
+.banner .container .detail{
+    display: inline;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+.banner .container .detail h3{
+    color: antiquewhite;
+    font-size: 16px;
+}
+.banner .container .detail h2{
+    margin-top: 10px;
+    font-size: 42px;
+    color: orangered;
+}
+.banner .container .detail p
+{
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 32px;
+}
+.banner .container .detail .link{
+    background: wheat;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.banner .container .detail .link:hover{
+    color: black;
+    background: orangered;
+}
+.product_detail
+{
+    margin-top: 10px;
+    padding: 20px 30px;
+    margin-top: -20%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+.product_detail .container
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 600px;
+    height: 350px;
+    background: rgb(230, 221, 221);
+    padding: 10px 20px;
+    border-radius:10px ;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 3px 8px;
+}
+.product_detail .container .closebtn
+{
+    margin-left: 90%;
+    border: none;
+    background: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+.product_detail .container .productbox
+{
+    max-width: 100%;
+    display: flex;
+    padding: 10px 20px;
+}
+.product_detail .container .productbox .img-box
+{
+   padding:10px 20px;
+   width: 250px;
+   height: 250px;
+   margin-top: 0%;
+   background: rgb(207, 202, 202);
+}
+.product_detail .container .productbox .img-box img
+{
+    width: 170px;
+    height: 200px;
+}
+.product_detail .container .productbox .detail
+{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.product_detail .container .productbox .detail h4{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 16px;
+    color: orangered;
+}
+.product_detail .container .productbox .detail h2{
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    text-transform: capitalize;
+}
+.product_detail .container .productbox .detail p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+}
+.product_detail .container .productbox .detail h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: orangered;
+    letter-spacing: 1px;
+}
+.product_detail .container .productbox .detail button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: black;
+    color: wheat;
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product_detail .container .productbox .detail button:hover {
+    background: orangered;
+}

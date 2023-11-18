@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.cartcontainer
+{
+    padding: 40px 50px;
+    width: 100%;
+    background: antiquewhite;
+    border-bottom: 1px solid gray;
+}
+.cartcontainer .emptycart
+{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.cartcontainer .emptycart h2{
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.cartcontainer .emptycart .emptycartbutton
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: bisque;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px 20px;
+}
+.cartcontainer .contant
+{
+    max-width: 100%;
+    padding: 20px 30px;
+}
+.cartcontainer .contant .cart_item
+{
+    padding: 20px 30px;
+    display: flex;
+    background: wheat;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    justify-content: space-between;
+}
+.cartcontainer .contant .cart_item .img_box
+{
+    padding: 10px 20px;
+    
+}
+.cartcontainer .contant .cart_item .img_box img
+{
+    width: 150px;
+    height: 200px;
+}
+.cartcontainer .contant .cart_item .detail
+{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+.cartcontainer .contant .cart_item .detail .info h4
+{
+    text-transform: uppercase;
+    color: grey;
+}
+.cartcontainer .contant .cart_item .detail .info p
+{
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+.cartcontainer .contant .cart_item .detail .info .qty
+{
+    margin-top: 10px;
+    display: flex;
+
+}
+.cartcontainer .contant .cart_item .detail .info .qty .incqty
+{
+    padding: 5px 7px;
+    background: white;
+    outline: none;
+    border: 2px;
+    border-radius: 20px;
+    color: orangered;
+    font-size: 22px ;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cartcontainer .contant .cart_item .detail .info .qty .decqty
+{
+    padding: 5px 7px;
+    background: white;
+    outline: none;
+    border: 2px;
+    border-radius: 20px;
+    color: orangered;
+    font-size: 22px ;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cartcontainer .contant .cart_item .detail .info .qty input
+{
+    border: 2px;
+    background: none;
+    font-size: 20px;
+    color: black;
+    width: 50px;
+    margin-left: 30px;
+}
+.cartcontainer .contant .cart_item .detail .info .qty .subtotal
+{
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.cartcontainer .contant .cart_item .detail .close
+{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.cartcontainer .contant .cart_item .detail .close button
+{
+    border: none;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    color: red;
+    background: none;
+    cursor: pointer;
+}
+.cartcontainer .totalcost
+{
+    margin-top: 20px;
+    margin-left: 50%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cartcontainer .checkout
+{
+    margin-top: 10px;
+    margin-left: 55%;
+    padding: 10px 20px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    background: black;
+    cursor: pointer;
+}

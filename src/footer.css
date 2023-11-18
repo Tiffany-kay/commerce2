@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.footer
+{
+    padding: 20px 30px;
+    width: 100%;
+    background: wheat;
+    
+}
+.footer .container
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    
+}
+.footer .container .about
+ {
+    max-width: 80%;
+}
+.footer .container .about .detail p{
+    margin-top: 0px;
+    margin-left: 0%;
+    font-size: 16px;
+    color: rgb(151, 91, 69);
+    writing-mode: horizontal-tb; 
+    text-orientation: sideways;
+}
+.footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .container .about .detail .icon li
+{
+    margin-left: 0px;
+    list-style: none;
+    padding: 10px 20px;
+    box-shadow: rgba(218, 53, 24, 0.15)1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer .container .about .detail .icon li:hover
+{
+    color: whitesmoke;
+    background: orangered;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.footer .container .account
+{
+    margin-right: 60px;
+    margin-top: 40px;
+}
+.footer .container .account h3{
+    font-size: 32px;
+}
+.footer .container .account ul
+{
+    margin-left: 20px;
+}
+.footer .container .account ul li
+{
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover
+{
+    color: orangered;
+}
+.footer .container .Pages
+{
+    margin-right: 60px;
+    margin-top: 40px;
+}
+.footer .container .Pages h3{
+    font-size: 32px;
+}
+.footer .container .Pages ul
+{
+    margin-left: 20px;
+}
+.footer .container .Pages ul li
+{
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .Pages ul li:hover
+{
+    color: orangered;
+}
