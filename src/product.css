@@ -93,8 +93,8 @@
 .products .container .productbox .contant .box .img_box img
 {
     position: relative;
-    width: 200px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     margin-left: 0%;
     margin-right: 0%;
 }
@@ -144,6 +144,9 @@
     color: orangered;
     letter-spacing: 1px;
 }
+.products .container .productbox .contant .box .detail .rating .selected {
+    color: orangered;
+   }
 .product_detail
 {
     margin-top: 10px;
